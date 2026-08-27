@@ -1,0 +1,50 @@
+name: nexora_flutter_app
+description: "NEXORA AI — Cross-Platform Multimodal Client (3D Neural Forest & Avatar, Developer Mode)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management & Reactive Data Flow
+  flutter_riverpod: ^2.4.10
+  
+  # HTTP & WebSocket Networking
+  http: ^1.2.0
+  web_socket_channel: ^2.4.1
+  
+  # UI & Styling Foundations
+  google_fonts: ^6.1.0
+  flutter_spinkit: ^5.2.0
+  animate_do: ^3.3.4
+  percent_indicator: ^4.2.3
+  
+  # Vector Math & 3D Rendering Capabilities
+  vector_math: ^2.1.4
+  
+  # Secure Storage & Session Persistence
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  
+  # Media & Voice Processing
+  record: ^5.0.5
+  audioplayers: ^5.2.1
+  
+  # Internationalization & Formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/models/
+    - assets/audio/

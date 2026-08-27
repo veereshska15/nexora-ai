@@ -1,0 +1,116 @@
+# ==============================================================================
+# NEXORA AI — GITIGNORE CONFIGURATION
+# ==============================================================================
+
+# --- Environment & Secret Files ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+.env/
+env.bak/
+venv.bak/
+
+# PyTest & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+junit/*.xml
+
+# --- Java & Spring Boot (Maven / Gradle) ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# --- Flutter & Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+ios/Runner/GeneratedPluginRegistrants.h
+ios/Runner/GeneratedPluginRegistrants.m
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# --- Node.js / Admin Dashboard ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+
+# --- Docker & Persistent Volumes ---
+docker_pgdata/
+docker_redisdata/
+docker_qdrantdata/
+mlruns/
+.dvc/cache/
+
+# --- Model Weights & Large Binary Datasets ---
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.bin
+ml/datasets/raw/*
+!ml/datasets/raw/.gitkeep
+ml/models/weights/*
+!ml/models/weights/.gitkeep
+
+# --- IDEs & OS Files ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
