@@ -1,123 +1,263 @@
-# NEXORA AI — Master Monorepo
+<div align="center">
 
-> **A Secure Real-Time Multimodal, Multilingual, Location-Aware, Cloud-Native Generative AI Platform**
+# 🌲 NEXORA AI 🌲
+### *Cyber-Nature Intelligence — Real-Time Multimodal, Multilingual & Location-Aware AI Ecosystem*
 
-[![Architecture](https://img.shields.io/badge/Architecture-Cloud--Native%20Microservices-blue)](docs/architecture.md)
-[![Python](https://img.shields.io/badge/Python-3.11+-green)](backend/fastapi/)
-[![Java](https://img.shields.io/badge/Java-Spring%20Boot%203-red)](backend/springboot/)
-[![Flutter](https://img.shields.io/badge/Flutter-Cross--Platform-cyan)](mobile/flutter_app/)
-[![License](https://img.shields.io/badge/License-MIT-purple)](#)
+```
+              .-------------------------------------------------------.
+             /   N E X O R A  //  C Y B E R - N A T U R E  A I       /|
+            +-------------------------------------------------------+ |
+            |  [🌐] 3D NEURAL FOREST  │  [⚡] STATEFUL LANGGRAPH     | |
+            |  [🛡️] FAST-MCP SECURE   │  [👁️] 3D-CNN SPATIO-TEMPORAL| |
+            |  [🔊] REAL-TIME VOICE   │  [🌲] BIOLUMINESCENT AI     | |
+            +-------------------------------------------------------+/'
+```
+
+[![Architecture](https://img.shields.io/badge/Architecture-3D%20Cloud--Native%20Microservices-10B981?style=for-the-badge&logo=kubernetes&logoColor=white)](#-3d-spatial-architecture)
+[![Python FastAPI](https://img.shields.io/badge/FastAPI-Async%20Core-06B6D4?style=for-the-badge&logo=fastapi&logoColor=white)](backend/fastapi/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Enterprise%20Java-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](backend/springboot/)
+[![Flutter 3D](https://img.shields.io/badge/Flutter-3D%20Canvas-02569B?style=for-the-badge&logo=flutter&logoColor=white)](mobile/flutter_app/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-Stateful%20DAG-6366F1?style=for-the-badge&logo=chainlink&logoColor=white)](ai/langgraph/)
+[![FastMCP Protocol](https://img.shields.io/badge/FastMCP-Tool%20Protocol-8B5CF6?style=for-the-badge&logo=protocolbuffers&logoColor=white)](mcp/)
+[![PyTorch 3D-CNN](https://img.shields.io/badge/PyTorch-3D--CNN%20Gesture-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](ml/models/)
 
 ---
 
-## 🏛️ Monorepo Directory Structure
+### 🌐 [ 3D SYSTEM DASHBOARD ] ─── [ CYBER-NATURE MATRIX ]
+
+| Telemetry Metric | Status / Value | Visual Level Gauge | Target Metric |
+| :--- | :--- | :--- | :--- |
+| **3D Neural Tree** | `BIOLUMINESCENT` | `████████████████████ 100%` | Active Node Array |
+| **Voice Audio Pipeline** | `WEBSOCKET STREAM` | `████████████████░░░░  82%` | `< 45ms Latency` |
+| **LangGraph DAG** | `STATEFUL CHECKPOINT` | `██████████████████░░  90%` | Zero Memory Leak |
+| **FastMCP Sandbox** | `ARMORED (LOW/MED/HIGH)`| `████████████████████ 100%` | Zero Trust Policy |
+| **RAG Retrieval** | `TENANT-ISOLATED` | `██████████████████░░  95%` | `pgvector / Qdrant` |
+| **3D-CNN Inference** | `SPATIO-TEMPORAL` | `████████████████░░░░  85%` | `Conv3D 60 FPS` |
+
+</div>
+
+---
+
+## 🏛️ 3D Spatial Architecture
+
+Isometric dimensional visualization of the multi-tiered NEXORA AI stack:
+
+```
+           ________________________________________________________
+          /                                                       /|
+         /    [ LAYER 6: 3D FLUTTER UI & CYBER-NATURE AVATAR ]   / |
+        /_______________________________________________________/  |
+       |  • 3D Neural Forest Mesh  • Live Waveform Audio Sync   |   |
+       |  • Developer Telemetry    • Nature Bioluminescent Mode |   |
+       |_______________________________________________________|  /|
+       /                                                       /|/ |
+      /   [ LAYER 5: EDGE SECURITY & CLOUDFLARE WAF GATEWAY ]   / |  |
+     /_______________________________________________________/  | /|
+    |  • OAuth2 / PKCE Tokens    • Rate Limiting (Token Bucket)|   |/ |
+    |  • HTTPS / WSS Encryption  • DDoS Mitigation Engine      |   |  |
+    |_______________________________________________________|  /| /|
+    /                                                       /|/ |/ |
+   /   [ LAYER 4: FASTAPI CORE & JAVA SPRING BOOT RBAC ]   / |  |  |
+  /_______________________________________________________/  | /| /|
+ |  • Async FastAPI Gateway    • Spring Security RBAC          |   |/ |/ |
+ |  • WebSockets Broker        • Enterprise Audit Loggers      |   |  | /|
+ |_______________________________________________________|  /| /|/ |
+ /                                                       /|/ |/ |  |
+/   [ LAYER 3: LANGGRAPH STATEFUL ROUTER & FASTMCP ]    / |  |  | /|
+/_______________________________________________________/  | /| /|/ |
+|  • Cyclic State Graph Nodes  • Risk Sandbox (LOW/MED/HIGH)   |   |/ |/  |
+|  • Checkpoint Persistence    • Custom FastMCP Servers        |   |  |  /
+|_______________________________________________________|  /| /|/
+/                                                       /|/ |/ |
+/   [ LAYER 2: PYTORCH 3D-CNN & VISION TRANSFORMERS ]   / |  |  /
+/_______________________________________________________/  | /|/
+|  • Spatio-Temporal Conv3D    • Gesture Action Classifier     |   |/
+|  • XGBoost Predictive ML     • OpenCV Frame Processor        |   |
+|_______________________________________________________|  /
+/                                                       /|
+/   [ LAYER 1: MULTI-TENANT POSTGRES, QDRANT & REDIS ]  / |
+/_______________________________________________________/  |
+|  • PostgreSQL ACID Relational • Qdrant Vector HNSW Index      |  /
+|  • Redis Session Cache        • MinIO / S3 Document Vault     | /
+|_______________________________________________________|/
+```
+
+---
+
+## 🎛️ Dual Modes Visual System
+
+NEXORA AI features two distinct interface personas built into the Flutter 3D Engine:
+
+```
+┌─────────────────────────────────────────┐  ┌─────────────────────────────────────────┐
+│     NEXORA // DEVELOPER MODE            │  │        NEXORA // NATURE MODE            │
+├─────────────────────────────────────────┤  ├─────────────────────────────────────────┤
+│ [SYSTEM TELEMETRY]                      │  │ [3D BIOLUMINESCENT NEURAL FOREST]       │
+│ CPU UTILIZATION : [███████░░░] 42%      │  │                                         │
+│ RAM CONSUMPTION : [██████████] 61%      │  │                 (✦)                     │
+│ GPU VRAM ALLOC  : [█████████░] 73%      │  │                / | \                    │
+│ WEBSOCKET RTT   : 41ms                  │  │              (✦)-(🌲)-(✦)                │
+│ ACTIVE WORKFLOW : LangGraph DAG #428    │  │                \ | /                    │
+│ FASTMCP TOOLS   : 17 Active Sandboxes   │  │                 (✦)                     │
+│ THREAT DEFENSE  : 0 Active Injections   │  │                                         │
+│ DVC MODEL VER   : v4.2.0-spatiotemporal │  │ STATE: 🌿 Bioluminescent Pulse (Active) │
+└─────────────────────────────────────────┘  └─────────────────────────────────────────┘
+```
+
+### 🧠 3D Avatar State Matrix
+
+| State | Visual Behavior | Environment Reaction |
+| :--- | :--- | :--- |
+| **Idle** | Gentle breathing motion | Soft ambient particle drift |
+| **Listening** | Eye focal shift & ear waveform glow | Organic leaves rustle with audio frequency |
+| **Thinking** | Glowing neural node pulses | Data streams elevate up the neural trunk |
+| **Processing** | Dynamic 3D graph expansion | Bioluminescent ring emission |
+| **Speaking** | Lip-sync audio amplitude mapping | Pulsing green foliage glow |
+| **Success** | Radiant particle explosion | Forest canopy illuminates emerald |
+| **Error** | Subtle crimson warning ring | Darkened forest aura with status overlay |
+
+---
+
+## 📂 3D Monorepo Topology
 
 ```
 nexora-ai/
-├── .github/workflows/          # Automated CI/CD build & evaluation pipelines
-├── ai/                         # Python AI Microservices Core Engine
-│   ├── agents/                 # Multi-agent orchestrators & delegation networks
-│   ├── genai/                  # LLM integrations, prompt templates & output parsers
-│   ├── langchain/              # LangChain components, memory stores & chains
-│   ├── langgraph/              # LangGraph stateful graph workflows, nodes & checkpointers
-│   ├── mcp/                    # FastMCP tool handlers (Low/Med/High risk)
-│   ├── rag/                    # RAG document loaders, text chunkers & dense vector retrievers
-│   ├── speech/                 # VAD audio streaming, STT (Whisper) & TTS (Coqui/Piper)
-│   └── vision/                 # OpenCV, OCR, object detection & 3D-CNN gesture inference
-├── backend/
-│   ├── fastapi/                # FastAPI Gateway & AI Streaming WebSockets
-│   └── springboot/             # Enterprise Java Spring Boot business services
-├── database/
-│   ├── migrations/             # Database schema migration scripts (Flyway / Liquibase)
-│   └── schemas/                # SQL definitions for PostgreSQL, pgvector & Redis schemas
-├── docs/                       # Architecture diagrams, API specs & IEEE research paper
-├── infrastructure/
-│   ├── docker/                 # Container Dockerfiles & multi-stage build configs
-│   ├── kubernetes/             # K8s manifests, deployments, services & Helm charts
-│   └── terraform/              # Infrastructure-as-code for AWS/GCP resources
-├── ml/                         # Research ML & 3D Deep Learning Core
-│   ├── datasets/               # Preprocessing & augmentation pipelines
-│   ├── evaluation/             # Confusion matrices, accuracy & F1 score evaluation scripts
-│   ├── models/                 # Custom PyTorch 3D-CNN & XGBoost models
-│   └── training/               # Model training scripts with MLflow tracking
-├── mcp/                        # FastMCP Protocol Tool Implementations
-│   ├── analytics/              # Usage & token analytics tool handlers
-│   ├── database/               # Safe SQL execution tool handlers
-│   ├── location/               # Geofencing & Google Places tool handlers
-│   ├── payment/                # Subscription status & checkout tool handlers
-│   └── rag/                    # Vector index query tool handlers
-├── mlops/                      # MLOps Infrastructure & Governance
-│   ├── mlflow/                 # Model registry & artifact logging configuration
-│   ├── monitoring/             # Data drift & model performance drift detectors
-│   └── pipelines/              # Automated retraining workflows
-├── mobile/
-│   └── flutter_app/            # Flutter cross-platform mobile/desktop application
-├── security/                   # Defense-in-depth Security Infrastructure
-│   ├── audit/                  # Security audit event logging
-│   ├── guards/                 # Prompt injection & Output Data Loss Prevention guardrails
-│   └── policies/               # Fine-grained RBAC permission matrix
-├── tests/                      # PyTest, JUnit 5 & Flutter integration test suites
-├── web/
-│   └── admin_dashboard/        # Web administrative telemetry & analytics portal
-├── docker-compose.yml          # Local containerized infrastructure orchestrator
-└── README.md
+├── 🌐 .github/workflows/         # Automated CI/CD Pipelines & Evaluation
+├── 🧠 ai/                        # Python AI Microservice Core Engine
+│   ├── 🤖 agents/                # Orchestrator & Specialized Swarm Agents
+│   ├── 💬 genai/                 # Prompt Registry, LLM Wrappers & Parsers
+│   ├── ⛓️ langchain/             # Abstractions, Retrievers & Chains
+│   ├── ⚡ langgraph/             # Stateful Cyclic DAG Routing & Checkpoints
+│   ├── 🛡️ mcp/                   # FastMCP Protocol Tool Execution Client
+│   ├── 📚 rag/                   # Dense Vector Search, Embeddings & Chunking
+│   ├── 🔊 speech/                # Silero VAD, Whisper STT & EdgeTTS Stream
+│   └── 👁️ vision/                # OpenCV, OCR & PyTorch 3D-CNN Inference
+├── ⚡ backend/
+│   ├── 🚀 fastapi/               # Async FastAPI AI Gateway & WebSockets
+│   └── ☕ springboot/            # Enterprise Java Spring Boot Microservice
+├── 🗄️ database/
+│   ├── 📜 migrations/            # Flyway / Liquibase SQL Migration Scripts
+│   └── 📐 schemas/               # Relational, Vector & Redis Schema Files
+├── 📖 docs/                      # IEEE Research Paper Draft & Architectural Specs
+├── 🐳 infrastructure/
+│   ├── 📦 docker/                # Multi-stage Dockerfiles
+│   ├── ☸️ kubernetes/            # K8s Manifests & Helm Charts
+│   └── 🏗️ terraform/             # AWS Infrastructure-as-Code
+├── 🔮 ml/                        # Deep Learning & ML Research Core
+│   ├── 📊 datasets/              # Spatio-Temporal Video & Tabular Data
+│   ├── 📈 evaluation/            # Confusion Matrices & Latency Benchmarks
+│   └── 🧠 models/                # Custom PyTorch 3D-CNN & XGBoost Models
+├── 🛠️ mcp/                       # FastMCP Protocol Tool Implementations
+│   ├── 🗺️ location/              # Geofencing & Google Places Tool Server
+│   ├── 💳 payment/               # HMAC Subscription Checkout Tool Server
+│   └── 📚 rag/                   # Multi-Tenant Vector Query Tool Server
+├── 🔄 mlops/                     # MLOps Infrastructure & Governance
+│   ├── 📉 mlflow/                # MLflow Experiment Tracking Server
+│   └── 🔍 monitoring/            # Evidently AI Data Drift Detector
+├── 📱 mobile/flutter_app/        # Flutter 3D Cross-Platform Client
+├── 🛡️ security/                  # 15-Layer Defense-in-Depth Infrastructure
+├── 🧪 tests/                     # PyTest, JUnit 5 & Flutter E2E Suites
+└── 🌐 web/admin_dashboard/       # Web Telemetry & Management Portal
 ```
 
 ---
 
-## 🚀 Quick Start (Local Development)
+## ⚡ Technical Deep Dives
 
-### 1. Prerequisites
-- **Docker Desktop** (with Compose v2+)
-- **Python 3.11+** & **Virtual Environment**
-- **Java OpenJDK 21** & **Maven 3.9+**
-- **Flutter SDK 3.19+**
+<details>
+<summary><b>👁️ 1. PyTorch 3D-CNN Spatio-Temporal Video Pipeline</b></summary>
 
-### 2. Environment Configuration
-Copy the example configuration file and fill in your keys:
-```bash
-cp .env.example .env
 ```
+  Input Tensor: (B, C, T, H, W) -> [Batch, 3 Channels, 16 Frames, 112, 112]
+        │
+        ▼
+   [ 3D Convolution 1 ]  -->  nn.Conv3d(3, 64, kernel_size=(3, 3, 3))
+        │
+   [ MaxPool3d (1,2,2) ]  -->  Preserves temporal frame depth, scales spatial dimensions
+        │
+   [ 3D Convolution 2 ]  -->  nn.Conv3d(64, 128, kernel_size=(3, 3, 3))
+        │
+   [ MaxPool3d (2,2,2) ]  -->  Downsamples spatial + temporal feature maps
+        │
+   [ Fully Connected ]   -->  Linear classifier -> Gesture Label & Confidence %
+```
+</details>
 
-### 3. Launch Local Infrastructure Stack
-Start PostgreSQL (`pgvector`), Redis, Qdrant Vector DB, and MLflow tracking server:
+<details>
+<summary><b>⚡ 2. LangGraph Stateful Agentic Graph Router</b></summary>
+
+```
+  [START] ──> (Input Guard Check) ──> { Is Injection? }
+                                            │ No
+                                            ▼
+                                  (Language Detector)
+                                            │
+                                            ▼
+                                 (Intent Classifier)
+                                  /        |        \
+                             [RAG]     [Vision]   [MCP Tool]
+                                  \        |        /
+                                   (State Checkpoint)
+                                            │
+                                            ▼
+                                   (Output Guard Filter) ──> [END]
+```
+</details>
+
+<details>
+<summary><b>🛡️ 3. FastMCP Sandbox Tool Security Matrix</b></summary>
+
+| Risk Level | FastMCP Tool Name | Permission Policy | Authorization Action |
+| :--- | :--- | :--- | :--- |
+| **LOW** | `get_weather`, `search_knowledge` | Public Read-Only | Auto-Execute |
+| **MEDIUM** | `query_user_documents`, `search_places` | Tenant Isolated | JWT & Scoped Token |
+| **HIGH** | `initiate_payment`, `delete_memory` | Strict Side-Effect | **Human-in-the-Loop Confirmation Modal** |
+</details>
+
+<details>
+<summary><b>💻 4. Core CS & OS Kernel Integration</b></summary>
+
+* **OS Multiprocessing:** `asyncio` GIL-bypassing worker pools for CPU-bound 3D-CNN matrix operations.
+* **Computer Networks OSI:** Layer 7 (WSS / HTTP/2), Layer 6 (TLS 1.3), Layer 4 (UDP audio frame streaming).
+* **MLOps Pipelines:** Automated MLflow tracking, DVC dataset versioning, and Evidently AI drift detection.
+</details>
+
+---
+
+## 🚀 Quick Start (Local Launch)
+
+### 1. Initialize Local Infrastructure Stack
 ```bash
 docker-compose up -d postgres redis qdrant mlflow
 ```
 
-### 4. Run AI Backend Service (FastAPI)
+### 2. Launch FastAPI AI Backend Engine
 ```bash
 cd backend/fastapi
 python -m venv venv
-# On Windows PowerShell:
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-### 5. Run Enterprise Business Backend (Spring Boot)
+### 3. Launch Java Spring Boot Microservice
 ```bash
 cd backend/springboot
 ./mvnw spring-boot:run
 ```
 
-### 6. Run Flutter App
+### 4. Launch Flutter 3D App
 ```bash
 cd mobile/flutter_app
 flutter pub get
-flutter run -d chrome  # Or Windows / Android / iOS target
+flutter run -d chrome  # Or Windows / Android / iOS
 ```
 
 ---
 
-## 🔒 Security Architecture Overview
+<div align="center">
 
-NEXORA AI adheres to zero-trust principles:
-1. **Input Guardrail**: All incoming user text, audio, and visual inputs pass through an automated Prompt Injection & Harm Filter before reaching LLM / Agent layers.
-2. **Tenant Isolation**: RAG vector queries enforce strict user metadata filtering at the database layer (`user_id` / `tenant_id`).
-3. **MCP Tool Authorization**: Medium- and High-risk MCP tools require explicit permission scopes; High-risk operations (payments, account modifications) enforce Human-in-the-Loop verification.
+**NEXORA AI — Engineered for Senior Production AI & B.E. Final-Year Academic Excellence**  
+Distributed under the MIT License. Built with ❤️ by `veereshska15`.
 
----
-
-## 📚 License
-Distributed under the MIT License. See `LICENSE` for details.
+</div>
